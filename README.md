@@ -3,7 +3,7 @@
 Bài tập quản lý doanh thu bán hàng gồm hai phần: Front-end (Expo + React Native) và Back-end API (ASP.Net Core Web API).
 
 **Mô tả ngắn:**
-- Front-end: ứng dụng di động đơn giản để quản lý Khách hàng, Sản phẩm và Hóa đơn.
+- Front-end:App đơn giản để quản lý Khách hàng, Sản phẩm và Hóa đơn.
 - API: dịch vụ REST dùng SQL Server để lưu trữ dữ liệu (Customers, Products, Invoices, InvoiceDetails).
 
 **Cấu trúc chính**
