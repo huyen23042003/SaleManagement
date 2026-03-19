@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Front-end",
+    "name": "Quản lý doanh thu bán hàng",
     "slug": "Front-end",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,7 +19,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.huyenphan23042003.Frontend"
     },
     "web": {
       "output": "static",
@@ -43,6 +44,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "0defde80-b41b-4619-8fab-c743efe7870f"
+      }
     }
   }
 }

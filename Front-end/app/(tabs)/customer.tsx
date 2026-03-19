@@ -18,7 +18,7 @@ interface Customer {
     phone: string;
 }
 
-const API_URL = "http://10.0.2.2:5046/api/Customer";
+const API_URL = "https://shaquita-benzal-isaura.ngrok-free.dev/api/Customer";
 
 export default function CustomerScreen() {
     const [customers, setCustomers] = useState<Customer[]>([]);

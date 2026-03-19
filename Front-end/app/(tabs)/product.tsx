@@ -18,7 +18,7 @@ interface Product {
     price: number;
 }
 
-const API_URL = "http://10.0.2.2:5046/api/Product";
+const API_URL = "https://shaquita-benzal-isaura.ngrok-free.dev/api/Product";
 
 export default function ProductScreen() {
     const [products, setProducts] = useState<Product[]>([]);

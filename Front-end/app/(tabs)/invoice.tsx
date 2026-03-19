@@ -9,8 +9,7 @@ import {
     TextInput, TouchableOpacity, View
 } from 'react-native';
 
-const API_URL = "http://10.0.2.2:5046/api";
-
+const API_URL = "https://shaquita-benzal-isaura.ngrok-free.dev/api";
 interface InvoiceDetail {
     productID: string;
     productName?: string;

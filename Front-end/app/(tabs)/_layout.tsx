@@ -23,7 +23,13 @@ export default function TabLayout() {
         }),
       }}>
       
-      {/* Tab Sản phẩm */}
+      <Tabs.Screen
+        name="index"
+        options={{
+          href: null, 
+        }}
+      />
+
       <Tabs.Screen
         name="product"
         options={{
@@ -34,7 +40,6 @@ export default function TabLayout() {
         }}
       />
 
-      {/* Tab Khách hàng */}
       <Tabs.Screen
         name="customer"
         options={{
@@ -45,7 +50,6 @@ export default function TabLayout() {
         }}
       />
 
-      {/* Tab Hóa đơn */}
       <Tabs.Screen
         name="invoice"
         options={{
